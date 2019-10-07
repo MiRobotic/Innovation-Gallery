@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_nav">70dp</dimen>
+    <dimen name="button_home">200dp</dimen>
+    <dimen name="room_2_3_4_height_landscape">480</dimen>
+    <dimen name="room_6_height_landscape">350dp</dimen>
+
+</resources>

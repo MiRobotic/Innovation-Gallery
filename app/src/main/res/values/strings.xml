@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Innovation Gallery</string>
+    <string name="agenda">Agenda</string>
+    <string name="showcase_directory">Showcase Directory</string>
+    <string name="showcase_directory_room">Showcase Directory Campus Room layout</string>
+    <string name="demo_and_poster">Demo and Poster - Campus Room 2, 3, 4</string>
+    <string name="showcase_room_5">Showcase Campus Room 5</string>
+    <string name="showcase_room_6">Showcase Campus Room 6</string>
+    <string name="showcase_smart_home">Showcase Smart Home</string>
+</resources>
