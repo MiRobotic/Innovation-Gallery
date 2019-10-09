@@ -16,11 +16,12 @@ public class ShowcaseRoom56Activity extends AppCompatActivity {
         findViewById(R.id.btnHome).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Intent intent = new Intent(ShowcaseRoom56Activity.this,MainActivity.class);
+               Intent intent = new Intent(ShowcaseRoom56Activity.this,ShowcaseMainActivity.class);
                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                startActivity(intent);
             }
         });
+
 
         findViewById(R.id.btnNext).setOnClickListener(new View.OnClickListener() {
             @Override

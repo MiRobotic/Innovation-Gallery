@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.btnShowcase).setOnClickListener(new View.OnClickListener() {
-            @Override
+           @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,ShowcaseMainActivity.class));
             }

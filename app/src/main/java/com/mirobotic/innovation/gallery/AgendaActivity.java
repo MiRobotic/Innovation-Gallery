@@ -13,9 +13,9 @@ public class AgendaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_agenda);
 
         findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                onBackPressed();
+        @Override
+          public void onClick(View view) {
+             onBackPressed();
             }
         });
 

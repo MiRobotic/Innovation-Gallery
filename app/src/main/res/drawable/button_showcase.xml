@@ -4,7 +4,7 @@
     <shape android:shape="rectangle">
 
         <!-- view background color -->
-        <solid android:color="@color/yellow_dark"/>
+        <solid android:color="@color/lightgreen"/>
 
         <!-- view border color and width -->
 
@@ -20,7 +20,7 @@
     <shape android:shape="rectangle">
 
         <!-- view background color -->
-        <solid android:color="@color/yellow"/>
+        <solid android:color="@color/lightgreen"/>
 
         <!-- view border color and width -->
 

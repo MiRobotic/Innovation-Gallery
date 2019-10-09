@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_nav">90dp</dimen>
+    <dimen name="button_home">350dp</dimen>
+    <dimen name="room_2_3_4_height_landscape">600dp</dimen>
+    <dimen name="room_6_height_landscape">420dp</dimen>
+    <dimen name="head_height">300dp</dimen>
+    <dimen name="space_small">20dp</dimen>
+    <dimen name="agenda_height">700dp</dimen>
+    <dimen name="room_5_height">350dp</dimen>
+    <dimen name="room_6_height">420dp</dimen>
+    <dimen name="room_2_3_4_height">700dp</dimen>
+
+    <dimen name="text_title">35sp</dimen>
+    <dimen name="text_head">80sp</dimen>
+    <dimen name="text_normal">22sp</dimen>
+</resources>

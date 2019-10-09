@@ -20,7 +20,7 @@
     <shape android:shape="rectangle">
 
         <!-- view background color -->
-        <solid android:color="@color/pink"/>
+        <solid android:color="@color/pink_dark"/>
 
         <!-- view border color and width -->
 

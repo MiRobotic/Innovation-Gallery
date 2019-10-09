@@ -5,8 +5,10 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="pink">#FF0066</color>
-    <color name="pink_dark">#aa0044</color>
+    <color name="pink_dark">#9C27B0</color>
     <color name="yellow">#aa8800</color>
-    <color name="yellow_dark">#887700</color>
+    <color name="yellow_dark">#DFD579</color>
     <color name="white">#fff</color>
+    <color name="green">#55F05C</color>
+    <color name="lightgreen">#FFAEC067</color>
 </resources>

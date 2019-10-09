@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:ignore="ContentDescription"
     tools:context=".MainActivity">
 
@@ -15,23 +16,28 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height"/>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/space_small"
+        android:src="@drawable/img_back" />
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
             android:padding="@dimen/space_small"
             android:orientation="vertical"
+            android:layout_weight="2.7"
             android:gravity="center">
 
             <TextView
                 android:gravity="center"
                 android:textSize="@dimen/text_head"
-                android:layout_marginStart="@dimen/space_small"
-                android:layout_marginEnd="@dimen/space_small"
                 android:layout_marginTop="@dimen/space_small"
                 android:text="@string/agenda"
                 android:layout_width="match_parent"
@@ -39,32 +45,23 @@
 
 
             <ImageView
-                android:src="@drawable/agenda"
-                android:scaleType="fitCenter"
                 android:layout_width="match_parent"
-                android:layout_marginStart="@dimen/space_small"
-                android:layout_marginEnd="@dimen/space_small"
-                android:layout_height="@dimen/agenda_height"/>
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/agenadetail" />
 
-
-            <ImageView
-                android:id="@+id/btnBack"
-                android:src="@drawable/img_back"
-                android:layout_margin="@dimen/space_small"
-                android:layout_width="@dimen/button_nav"
-                android:layout_height="@dimen/button_nav"/>
 
         </LinearLayout>
 
 
-    </ScrollView>
 
-
-    <ImageView
-        android:layout_margin="@dimen/space_small"
-        android:src="@drawable/img_logo"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/head_height" />
+        <ImageView
+            android:layout_margin="@dimen/space_small"
+            android:src="@drawable/logoinfineon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/head_height" />
 
 
 </LinearLayout>
+
