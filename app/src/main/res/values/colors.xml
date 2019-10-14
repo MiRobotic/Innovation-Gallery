@@ -11,4 +11,6 @@
     <color name="white">#fff</color>
     <color name="green">#55F05C</color>
     <color name="lightgreen">#AEC067</color>
+
+    <color name="spotlight">#aaDFD579</color>
 </resources>

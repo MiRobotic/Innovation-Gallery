@@ -23,7 +23,7 @@
 
         <ImageView
         android:id="@+id/btnBack"
-        android:src="@drawable/img_back"
+        android:src="@drawable/img_home"
         android:layout_marginLeft="@dimen/space_small"
             android:layout_marginTop="@dimen/space_small"
         android:layout_width="@dimen/button_nav"
@@ -53,16 +53,51 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-
-            <ImageView
-                android:layout_marginTop="20dp"
-                android:id="@+id/imgMap"
-                android:src="@drawable/newdirctory"
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:layout_width="700dp"
+                android:layout_height="450dp"
                 android:layout_marginStart="@dimen/space_small"
-                android:layout_marginEnd="@dimen/space_small"
-                android:layout_height="@dimen/agenda_height"/>
+                android:layout_marginEnd="@dimen/space_small">
+
+                <ImageView
+                    android:id="@+id/imgMap"
+                    android:src="@drawable/showcase_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <View
+                    android:background="@color/spotlight"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_width="170dp"
+                    android:layout_height="70dp" />
+
+                <View
+                    android:layout_marginTop="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/spotlight"
+                    android:layout_marginEnd="120dp"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"/>
+
+                <View
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/spotlight"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"/>
+
+                <View
+                    android:layout_marginEnd="140dp"
+                    android:layout_marginTop="130dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/spotlight"
+                    android:layout_width="45dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
 
 
 
