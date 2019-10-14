@@ -16,7 +16,7 @@ public class ShowcaseMainActivity extends AppCompatActivity {
         findViewById(R.id.imgMap).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ShowcaseMainActivity.this,ShowcaseRoom234Activity.class));
+//                startActivity(new Intent(ShowcaseMainActivity.this,ShowcaseRoom234Activity.class));
             }
         });
 
@@ -26,6 +26,32 @@ public class ShowcaseMainActivity extends AppCompatActivity {
                startActivity(new Intent(ShowcaseMainActivity.this,MainActivity.class));
             }
         });
+
+        findViewById(R.id.viewRoom2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShowcaseMainActivity.this,ShowcaseRoom234Activity.class));
+            }
+        });
+        findViewById(R.id.viewRoom5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShowcaseMainActivity.this,ShowcaseRoom56Activity.class));
+            }
+        });
+        findViewById(R.id.viewRoom6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShowcaseMainActivity.this,ShowcaseRoom56Activity.class));
+            }
+        });
+        findViewById(R.id.viewSmartHome).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShowcaseMainActivity.this,ShowcaseSmartHomeActivity.class));
+            }
+        });
+
 
     }
 }

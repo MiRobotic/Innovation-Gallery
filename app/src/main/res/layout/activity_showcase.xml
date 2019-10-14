@@ -66,6 +66,7 @@
                     android:layout_height="match_parent"/>
 
                 <View
+                    android:id="@+id/viewRoom2"
                     android:background="@color/spotlight"
                     android:layout_marginTop="@dimen/map_margin_top"
                     android:layout_marginStart="@dimen/map_room_2_margin_start"
@@ -73,6 +74,7 @@
                     android:layout_height="@dimen/map_room_2_height" />
 
                 <View
+                    android:id="@+id/viewRoom5"
                     android:layout_marginTop="@dimen/map_margin_top"
                     android:layout_alignParentEnd="true"
                     android:background="@color/spotlight"
@@ -81,6 +83,7 @@
                     android:layout_height="@dimen/map_room_5_height"/>
 
                 <View
+                    android:id="@+id/viewRoom6"
                     android:layout_marginEnd="@dimen/map_room_6_margin_end"
                     android:layout_marginTop="@dimen/map_room_6_margin_top"
                     android:background="@color/spotlight"
@@ -89,6 +92,7 @@
                     android:layout_height="@dimen/map_room_6_height"/>
 
                 <View
+                    android:id="@+id/viewSmartHome"
                     android:layout_marginEnd="@dimen/map_sh_margin_end"
                     android:layout_marginTop="@dimen/map_sh_margin_top"
                     android:layout_alignParentEnd="true"
