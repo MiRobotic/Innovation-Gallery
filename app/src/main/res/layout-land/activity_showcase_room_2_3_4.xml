@@ -33,6 +33,7 @@
                 android:layout_marginStart="@dimen/space_small"
                 android:layout_marginEnd="@dimen/space_small"
                 android:layout_marginTop="@dimen/space_small"
+                android:fontFamily="@font/source_san_pro"
                 android:text="@string/demo_and_poster"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

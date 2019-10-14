@@ -23,7 +23,7 @@ public class ShowcaseMainActivity extends AppCompatActivity {
         findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onBackPressed();
+               startActivity(new Intent(ShowcaseMainActivity.this,MainActivity.class));
             }
         });
 

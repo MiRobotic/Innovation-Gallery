@@ -11,7 +11,7 @@
 
 
     <ImageView
-        android:src="@drawable/banner"
+        android:src="@drawable/igtop"
         android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height"/>
@@ -29,6 +29,7 @@
             android:id="@+id/tvTitle"
             android:gravity="center"
             android:textSize="@dimen/text_head"
+            android:fontFamily="@font/source_san_pro"
             android:text="@string/app_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -47,6 +48,7 @@
                 android:gravity="center"
                 android:textColor="@color/white"
                 android:text="@string/agenda"
+                android:fontFamily="@font/source_san_pro"
                 android:layout_margin="@dimen/space_small"
                 android:background="@drawable/button_agenda"
                 android:layout_width="@dimen/button_home"
@@ -57,6 +59,7 @@
                 android:id="@+id/btnShowcase"
                 android:textSize="40sp"
                 android:gravity="center"
+                android:fontFamily="@font/source_san_pro"
                 android:textColor="@color/white"
                 android:text="@string/showcase_directory"
                 android:layout_margin="@dimen/space_small"

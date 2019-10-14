@@ -40,6 +40,7 @@
                     <TextView
                         android:gravity="center"
                         android:textSize="@dimen/text_head"
+                        android:fontFamily="@font/source_san_pro"
                         android:layout_marginStart="@dimen/space_small"
                         android:layout_marginEnd="@dimen/space_small"
                         android:layout_marginTop="@dimen/space_small"
@@ -68,6 +69,7 @@
                     <TextView
                         android:gravity="center"
                         android:textSize="@dimen/text_head"
+                        android:fontFamily="@font/source_san_pro"
                         android:layout_marginStart="@dimen/space_small"
                         android:layout_marginEnd="@dimen/space_small"
                         android:layout_marginTop="@dimen/space_small"

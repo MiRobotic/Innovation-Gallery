@@ -11,7 +11,7 @@
 
 
     <ImageView
-        android:src="@drawable/banner"
+        android:src="@drawable/igtop"
         android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height"/>
@@ -46,6 +46,7 @@
             <TextView
                 android:gravity="center"
                 android:textSize="@dimen/text_head"
+                android:fontFamily="@font/source_san_pro"
                 android:layout_marginTop="-20dp"
                 android:layout_marginStart="@dimen/space_small"
                 android:layout_marginEnd="@dimen/space_small"

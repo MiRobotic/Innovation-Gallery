@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="fitXY"
-        android:src="@drawable/banner"></ImageView>
+        android:src="@drawable/igtop"/>
 
     <RelativeLayout
         android:id="@+id/layout1"
@@ -32,7 +32,7 @@
             android:layout_marginLeft="10dp"
             android:layout_gravity="left"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/img_home"></ImageView>
+            android:src="@drawable/img_home"/>
 
         <ImageView
             android:id="@+id/btnNext"
@@ -42,7 +42,7 @@
             android:layout_marginRight="10dp"
             android:layout_gravity="right"
             android:layout_alignParentRight="true"
-            android:src="@drawable/img_next"></ImageView>
+            android:src="@drawable/img_next"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -61,6 +61,7 @@
             android:singleLine="true"
             android:layout_gravity="center"
             android:gravity="center"
+            android:fontFamily="@font/source_san_pro"
             android:layout_margin="10dp"
             android:text="Showcase Campus Room 5">
 
@@ -72,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="-20dp"
             android:layout_marginBottom="0dp"
-            android:src="@drawable/campus5"></ImageView>
+            android:src="@drawable/campus5"/>
 
     </LinearLayout>
 
@@ -87,6 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="60sp"
+            android:fontFamily="@font/source_san_pro"
             android:singleLine="true"
             android:layout_margin="10dp"
             android:layout_gravity="center"
