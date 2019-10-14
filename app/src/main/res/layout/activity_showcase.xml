@@ -53,6 +53,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
+            <TextView
+                android:textSize="40sp"
+                android:textColor="@color/blue"
+                android:layout_margin="@dimen/space_small"
+                android:text="Press campus room to see detail"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
             <RelativeLayout
                 android:layout_width="@dimen/map_width"
                 android:layout_height="@dimen/map_height"
@@ -61,7 +70,7 @@
 
                 <ImageView
                     android:id="@+id/imgMap"
-                    android:src="@drawable/showcase_map"
+                    android:src="@drawable/map2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
 

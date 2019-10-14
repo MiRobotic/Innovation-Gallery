@@ -19,6 +19,8 @@
     <dimen name="text_head">50sp</dimen>
     <dimen name="text_normal">18sp</dimen>
 
+
+
     <dimen name="map_width">700dp</dimen>
     <dimen name="map_height">450dp</dimen>
     <dimen name="map_margin_top">25dp</dimen>

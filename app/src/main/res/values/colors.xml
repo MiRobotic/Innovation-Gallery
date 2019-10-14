@@ -11,6 +11,6 @@
     <color name="white">#fff</color>
     <color name="green">#55F05C</color>
     <color name="lightgreen">#AEC067</color>
-
+    <color name="blue">#1E90FF</color>
     <color name="spotlight">#00DFD579</color>
 </resources>
