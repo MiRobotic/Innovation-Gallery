@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:ignore="ContentDescription"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,HardcodedText"
     tools:context=".MainActivity">
 
 
@@ -20,7 +21,6 @@
         android:id="@+id/layout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/banner_image"
         android:orientation="horizontal">
 
 
@@ -29,88 +29,99 @@
             android:layout_width="@dimen/button_nav"
             android:layout_height="@dimen/button_nav"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_gravity="left"
-            android:layout_alignParentLeft="true"
-            android:src="@drawable/img_home"/>
+            android:layout_marginStart="10dp"
+            android:layout_gravity="start"
+            android:src="@drawable/img_back"/>
 
         <ImageView
             android:id="@+id/btnNext"
             android:layout_width="@dimen/button_nav"
             android:layout_height="@dimen/button_nav"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_gravity="right"
-            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
             android:src="@drawable/img_next"/>
     </RelativeLayout>
 
-    <LinearLayout
-        android:id="@+id/layout2"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/layout1"
-        android:layout_marginTop="10dp">
+        android:layout_height="1dp"
+        android:layout_weight="1">
 
-
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="60sp"
-            android:singleLine="true"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:fontFamily="@font/source_san_pro"
-            android:layout_margin="10dp"
-            android:text="Showcase Campus Room 5">
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
 
 
-        </TextView>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-20dp"
-            android:layout_marginBottom="0dp"
-            android:src="@drawable/campus5"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/layout2"
-        android:layout_marginTop="10dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="60sp"
-            android:fontFamily="@font/source_san_pro"
-            android:singleLine="true"
-            android:layout_margin="10dp"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Showcase Campus Room 6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="60sp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="@font/source_san_pro"
+                    android:layout_margin="10dp"
+                    android:text="Showcase Campus Room 5"
+                    tools:ignore="HardcodedText">
 
 
-        </TextView>
+                </TextView>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            android:src="@drawable/campus6"></ImageView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/campus5"/>
 
-    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="60sp"
+                    android:fontFamily="@font/source_san_pro"
+                    android:singleLine="true"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Showcase Campus Room 6"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/campus6"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="190dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:src="@drawable/logoinfineon"></ImageView>
+        android:layout_margin="@dimen/space_small"
+        android:src="@drawable/logoinfineon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_height"/>
 
-</RelativeLayout>
+
+</LinearLayout>
