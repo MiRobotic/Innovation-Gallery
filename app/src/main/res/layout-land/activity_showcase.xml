@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="ContentDescription"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/igtop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_height"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/space_small"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_small">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:src="@drawable/img_home"
+                android:layout_marginStart="@dimen/space_small" android:layout_marginTop="@dimen/space_small"
+                android:layout_width="@dimen/button_nav"
+                android:layout_height="@dimen/button_nav"/>
+
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/text_head"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="@dimen/space_small"
+                android:text="@string/showcase_directory"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_nav"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:textSize="40sp"
+            android:textColor="@color/blue"
+            android:layout_margin="@dimen/space_small"
+            android:text="Press campus room to see detail"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <RelativeLayout
+            android:layout_width="@dimen/map_width"
+            android:layout_height="@dimen/map_height"
+            android:layout_marginStart="@dimen/space_small"
+            android:layout_marginEnd="@dimen/space_small">
+
+            <ImageView
+                android:id="@+id/imgMap"
+                android:src="@drawable/map2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:id="@+id/viewRoom2"
+                android:background="@color/spotlight"
+                android:layout_marginTop="@dimen/map_margin_top"
+                android:layout_marginStart="@dimen/map_room_2_margin_start"
+                android:layout_width="@dimen/map_room_2_width"
+                android:layout_height="@dimen/map_room_2_height" />
+
+            <View
+                android:id="@+id/viewRoom5"
+                android:layout_marginTop="@dimen/map_margin_top"
+                android:layout_alignParentEnd="true"
+                android:background="@color/spotlight"
+                android:layout_marginEnd="@dimen/map_room_5_margin_end"
+                android:layout_width="@dimen/map_room_5_width"
+                android:layout_height="@dimen/map_room_5_height"/>
+
+            <View
+                android:id="@+id/viewRoom6"
+                android:layout_marginEnd="@dimen/map_room_6_margin_end"
+                android:layout_marginTop="@dimen/map_room_6_margin_top"
+                android:background="@color/spotlight"
+                android:layout_alignParentEnd="true"
+                android:layout_width="@dimen/map_room_6_width"
+                android:layout_height="@dimen/map_room_6_height"/>
+
+            <View
+                android:id="@+id/viewSmartHome"
+                android:layout_marginEnd="@dimen/map_sh_margin_end"
+                android:layout_marginTop="@dimen/map_sh_margin_top"
+                android:layout_alignParentEnd="true"
+                android:background="@color/spotlight"
+                android:layout_width="@dimen/map_sh_width"
+                android:layout_height="@dimen/map_sh_height"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_margin="@dimen/space_small"
+        android:src="@drawable/logoinfineon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_height" />
+
+
+</LinearLayout>

@@ -12,7 +12,6 @@
 
     <ImageView
         android:src="@drawable/igtop"
-        android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height"/>
 

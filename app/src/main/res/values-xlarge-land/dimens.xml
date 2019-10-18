@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_nav">45dp</dimen>
+    <dimen name="button_home">220dp</dimen>
+    <dimen name="room_2_3_4_height_landscape">600dp</dimen>
+    <dimen name="room_6_height_landscape">600dp</dimen>
+    <dimen name="head_height">120dp</dimen>
+    <dimen name="space_small">10dp</dimen>
+    <dimen name="agenda_height">350dp</dimen>
+    <dimen name="room_5_height">380dp</dimen>
+    <dimen name="room_6_height">210dp</dimen>
+    <dimen name="room_2_3_4_height">350dp</dimen>
+
+    <dimen name="text_title">17sp</dimen>
+    <dimen name="text_head">30sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+
+    <dimen name="map_width">700dp</dimen>
+    <dimen name="map_height">450dp</dimen>
+    <dimen name="map_margin_top">25dp</dimen>
+    <dimen name="map_room_2_margin_start">240dp</dimen>
+    <dimen name="map_room_2_width">170dp</dimen>
+    <dimen name="map_room_2_height">70dp</dimen>
+    <dimen name="map_room_5_width">70dp</dimen>
+    <dimen name="map_room_5_height">70dp</dimen>
+    <dimen name="map_room_5_margin_end">120dp</dimen>
+    <dimen name="map_room_6_margin_end">55dp</dimen>
+    <dimen name="map_room_6_margin_top">50dp</dimen>
+    <dimen name="map_room_6_width">55dp</dimen>
+    <dimen name="map_room_6_height">75dp</dimen>
+    <dimen name="map_sh_width">45dp</dimen>
+    <dimen name="map_sh_height">30dp</dimen>
+    <dimen name="map_sh_margin_top">130dp</dimen>
+    <dimen name="map_sh_margin_end">140dp</dimen>
+
+
+</resources>

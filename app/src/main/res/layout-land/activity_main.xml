@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="ContentDescription"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/igtop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_height"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/source_san_pro"
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnAgenda"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/agenda"
+                android:fontFamily="@font/source_san_pro"
+                android:layout_margin="@dimen/space_small"
+                android:background="@drawable/button_agenda"
+                android:layout_width="@dimen/button_home"
+                android:layout_height="@dimen/button_home"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnShowcase"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:fontFamily="@font/source_san_pro"
+                android:textColor="@color/white"
+                android:text="@string/showcase_directory"
+                android:layout_margin="@dimen/space_small"
+                android:background="@drawable/button_showcase"
+                android:layout_width="@dimen/button_home"
+                android:layout_height="@dimen/button_home"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_margin="@dimen/space_small"
+        android:src="@drawable/logoinfineon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_height"/>
+
+
+</LinearLayout>

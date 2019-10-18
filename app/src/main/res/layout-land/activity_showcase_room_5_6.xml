@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:ignore="ContentDescription"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:src="@drawable/banner"
-        android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height"/>
 
@@ -25,6 +25,27 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/space_small">
+
+                <ImageView
+                    android:id="@+id/btnHome"
+                    android:src="@drawable/img_home"
+                    android:layout_margin="@dimen/space_small"
+                    android:layout_width="@dimen/button_nav"
+                    android:layout_height="@dimen/button_nav"/>
+
+                <ImageView
+                    android:id="@+id/btnNext"
+                    android:src="@drawable/img_next"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="@dimen/space_small"
+                    android:layout_width="@dimen/button_nav"
+                    android:layout_height="@dimen/button_nav"/>
+
+            </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +57,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:gravity="center_horizontal"
                     tools:ignore="NestedWeights">
+
+
                     <TextView
                         android:gravity="center"
                         android:textSize="@dimen/text_head"
@@ -63,6 +87,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
                     android:orientation="vertical"
                     tools:ignore="NestedWeights">
 
@@ -92,27 +117,7 @@
 
             </LinearLayout>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="@dimen/space_small">
 
-                <ImageView
-                    android:id="@+id/btnHome"
-                    android:src="@drawable/img_home"
-                    android:layout_margin="@dimen/space_small"
-                    android:layout_width="@dimen/button_nav"
-                    android:layout_height="@dimen/button_nav"/>
-
-                <ImageView
-                    android:id="@+id/btnNext"
-                    android:src="@drawable/img_next"
-                    android:layout_alignParentEnd="true"
-                    android:layout_margin="@dimen/space_small"
-                    android:layout_width="@dimen/button_nav"
-                    android:layout_height="@dimen/button_nav"/>
-
-            </RelativeLayout>
 
         </LinearLayout>
 
@@ -122,7 +127,7 @@
 
     <ImageView
         android:layout_margin="@dimen/space_small"
-        android:src="@drawable/img_logo"
+        android:src="@drawable/logoinfineon"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height" />
 

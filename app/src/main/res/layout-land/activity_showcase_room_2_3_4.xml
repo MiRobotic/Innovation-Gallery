@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:ignore="ContentDescription"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:src="@drawable/banner"
-        android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height"/>
 
@@ -20,6 +20,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,16 +28,41 @@
             android:orientation="vertical"
             android:gravity="center">
 
-            <TextView
-                android:gravity="center"
-                android:textSize="@dimen/text_head"
-                android:layout_marginStart="@dimen/space_small"
-                android:layout_marginEnd="@dimen/space_small"
-                android:layout_marginTop="@dimen/space_small"
-                android:fontFamily="@font/source_san_pro"
-                android:text="@string/demo_and_poster"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/space_small"
+                android:paddingEnd="@dimen/space_small">
+
+                <ImageView
+                    android:id="@+id/btnHome"
+                    android:src="@drawable/img_home"
+                    android:layout_margin="@dimen/space_small"
+                    android:layout_width="@dimen/button_nav"
+                    android:layout_height="@dimen/button_nav"/>
+
+                <ImageView
+                    android:id="@+id/btnNext"
+                    android:src="@drawable/img_next"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="@dimen/space_small"
+                    android:layout_width="@dimen/button_nav"
+                    android:layout_height="@dimen/button_nav"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:textSize="@dimen/text_head"
+                    android:layout_marginStart="@dimen/space_small"
+                    android:layout_marginEnd="@dimen/space_small"
+                    android:layout_marginTop="@dimen/space_small"
+                    android:fontFamily="@font/source_san_pro"
+                    android:text="@string/demo_and_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
 
 
             <LinearLayout
@@ -61,37 +87,11 @@
                     android:layout_weight="1"
                     android:src="@drawable/room_2_3_4"
                     android:layout_width="match_parent"
-                    android:scaleType="fitStart"
                     android:layout_marginStart="@dimen/space_small"
                     android:layout_marginEnd="@dimen/space_small"
                     android:layout_height="@dimen/room_2_3_4_height_landscape"/>
 
             </LinearLayout>
-
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="@dimen/space_small"
-                android:paddingEnd="@dimen/space_small">
-
-                <ImageView
-                    android:id="@+id/btnHome"
-                    android:src="@drawable/img_home"
-                    android:layout_margin="@dimen/space_small"
-                    android:layout_width="@dimen/button_nav"
-                    android:layout_height="@dimen/button_nav"/>
-
-                <ImageView
-                    android:id="@+id/btnNext"
-                    android:src="@drawable/img_next"
-                    android:layout_alignParentEnd="true"
-                    android:layout_margin="@dimen/space_small"
-                    android:layout_width="@dimen/button_nav"
-                    android:layout_height="@dimen/button_nav"/>
-
-            </RelativeLayout>
 
         </LinearLayout>
 
@@ -101,7 +101,7 @@
 
     <ImageView
         android:layout_margin="@dimen/space_small"
-        android:src="@drawable/img_logo"
+        android:src="@drawable/logoinfineon"
         android:layout_width="match_parent"
         android:layout_height="@dimen/head_height" />
 
